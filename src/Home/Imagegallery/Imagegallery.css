@@ -1,0 +1,24 @@
+.cardImg{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+img{
+    width: 100%;
+}
+.roundedImg{
+    border-radius: 6px;
+    filter: grayscale(0);
+    cursor: pointer;
+    transition: all 100ms linear;
+}
+.roundedImg:hover{
+    filter: grayscale(0.5);
+}
+.containers .cardImg {
+    margin: 20px 0;
+}

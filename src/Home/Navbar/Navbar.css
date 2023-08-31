@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width: 100%;
+    background-color: #000000;
+}
+.containerNavbar{
+    width: 95%;
+    font-family: system-ui;
+    margin: 0 auto;
+}
+.logoNavbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.headerNavbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navTitle{
+    color: #ffffff;
+    align-items:center;
+    text-decoration: none;
+}
+.ulMenu{
+    display: flex;
+}
+.ulMenu > li{
+    display: flex;
+}
+.titleMenu{
+    flex: 1;
+    color: #b6b6b6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size:24px;
+    transition: all 200ms linear;
+    padding: 1rem 1.5rem;
+    flex-basis: auto;
+}
+.titleMenu:hover{
+    color: white;
+}
+.active{
+ color: #ffffff;
+}
+.iconcamera{
+    font-size: xx-large;
+    color: #27A776;
+}
+@media screen and (max-width: 768px){
+    .LogoNavbar{
+        align-items: unset;
+    }
+    .navTitle{
+        font-size: large;
+    }
+    .titleMenu{
+        padding: 6px 0px 0px 26px;
+        font-size: 16px;
+    }
+    .iconcamera{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .LogoNavbar{
+        align-items: unset;
+    }
+    .navTitle{
+        font-size: large;
+    }
+    .titleMenu{
+        font-size: 16px;
+        padding: 6px 0px 0px 26px;
+    }
+    .iconcamera{
+        font-size: x-large;
+    }
+}

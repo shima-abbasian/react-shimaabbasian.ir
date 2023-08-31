@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    font-family: IRANSansWeb;
+
+}
+.holderabouteme{
+    width: 70%;
+    background-color: black;
+    text-align: center;
+    margin: 50px auto;
+}
+.holderText{
+    width: 400px;
+    height: auto;
+    margin:  auto;
+    color: white;
+}
+.holderText p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+}
+.holderText span{
+    font-weight: lighter;
+    font-size: 14px;
+    width: 50%;
+}
+.holderText.left{
+    margin: 50px 0;
+    width: 60%;
+    text-align: right;
+}
+.holderText.right{
+    width: 40%;
+}
+.holderText .icon{
+    color: #27A776;
+    margin-left: 5px;
+}
+.holderText a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+}
+.holderText .iconInsta{
+    color: #27A776;
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 768px){
+    .holderabouteme{
+        width: 85%;
+    }
+    .holderText.left{
+        width: 100%;
+    }
+    .holderText a{
+        font-size: small;
+    }
+    .holderText .iconInsta{
+        margin-left: 5px;
+        font-size: large;
+    }
+}
+@media screen and (max-width: 576px){
+    .holderabouteme{
+        width: 85%;
+    }
+    .holderText.left{
+        width: 100%;
+    }
+    .holderText a{
+        font-size: small;
+    }
+    .holderText .iconInsta{
+        margin-left: 5px;
+        font-size: large;
+    }
+}
